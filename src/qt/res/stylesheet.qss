@@ -1,0 +1,54 @@
+#frame,#frame_3 {
+        border:1px solid red;
+        border-radius:15px;
+        padding:2px 4px;
+}
+#frame_2{
+border:5px solid ;
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(229, 229, 229, 255), stop:1 rgba(255, 255, 255, 159));
+border-radius:15px;
+padding:2px 4px;
+}
+QWidget{
+        background-color:white;
+}
+QToolBar{
+    background-color:#FF4700;
+    color:white;
+}
+QMenu{
+    color:black;
+}
+QToolButton {
+    background-color: #ff6023;
+    border: 1px transparent #4A4949;
+    border-radius: 2px;
+    margin: 3px;
+    padding: 3px;
+    color:white;
+}
+
+QToolButton:hover, QToolButton::menu-button:hover {
+border:2px groove white;
+border-radius:23px;
+padding:2px 4px;
+color:red;
+background-color:white;
+}
+
+QToolButton:checked, QToolButton:pressed,QToolButton::menu-button:pressed {
+border:2px groove white;
+border-radius:23px;
+padding:2px 4px;
+color:red;
+background-color:white;
+}
+
+QListView::item:hover{
+border:2px groove gray;
+border-radius:23px;
+padding:2px 4px;
+}
+QDialog{
+font: 9pt "微软雅黑";
+}
